@@ -1,10 +1,11 @@
-function beepBoop(inputNumber) {
-  const arrayNum = [inputNumber(i)]; 
-    for (let i = 0; i <= inputNumber; i++) {
-      // arrayNum.push(i);
-      console.log(arrayNum);
-    }
-    return arrayNum;
-  
-}
 inputNumber = 5;
+
+function beepBoop(number) {
+let arrayNum = []; 
+    for (let i = 0; i <= inputNumber; i += 1) {
+      arrayNum.push(i);
+      
+    }
+return arrayNum;
+console.log(arrayNum);
+  }
