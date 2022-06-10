@@ -1,18 +1,26 @@
-let inputNumber = 5;
+const inputNumber = 5;
 
 function beepBoop(inputNumber) {
-const arrayNum = []; 
-    for (let i = 0; i <= inputNumber; i += 1) {
-      arrayNum.push(i);
+  let arrayNumber = []; 
+  
+    for (let i = 0; i <= "#inputNumber"; i += 1) {
+      console.log(inputNumber);
+      arrayNumber.push(i);
     }
-    arrayNum;
-console.log(arrayNum);
+    return arrayNumber();
+console.log(arrayNumber);
   }
 
-//   let arrayNum = []; 
-//     for (let i = 0; i <= number; i += 1) {
-//       arrayNum.push(i);
-      
-//     }
-// arrayNum;
-// console.log(arrayNum);
+  
+  $(document).ready(function(){
+    $("form#counting").submit(function(event) {
+      event.preventDefault();
+      const inputNumber = parseInt($("#inputNumber").val());
+      console.log(inputNumber);
+      // const results = result(arrayNum);
+      $(("#output")).text(arrayNumber);
+      console.log(arrayNumber);
+      // $("#output").text(results);
+    });
+  });
+
