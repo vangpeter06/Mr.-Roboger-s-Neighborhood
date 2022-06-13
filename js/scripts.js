@@ -1,16 +1,17 @@
 function beepBoop(inputNumber) {
   let arrayNumber = []; 
   for (let i = 0; i <= inputNumber; i++) {
-    arrayNumber.push(i.toString());
-    if ((arrayNumber[i]).match("1")) {
-      arrayNumber[i] = ("BEEP!");
-    } else if ((arrayNumber[i]).match("2")) {
-      arrayNumber[i] = ("BOOP!");
-    } else if ((arrayNumber[i]).match("3")) {
-      arrayNumber[i] = ("Won't you be my neighbor?");
+    if (i.toString().includes(3)) {
+      arrayNumber.push("Won't you be my neighbor?");
+    } else if (i.toString().includes(2)) {
+      arrayNumber.push("Boop !");
+    } else if (i.toString().includes(1)) {
+      arrayNumber.push("Beep !");
+    } else {
+      arrayNumber.push(i);
     }
-  };
-  return arrayNumber;
+  }
+    return arrayNumber;
 };
 
 $(document).ready(function(){
@@ -21,4 +22,3 @@ $(document).ready(function(){
      $("#output").text(results);
   });
 });
-
