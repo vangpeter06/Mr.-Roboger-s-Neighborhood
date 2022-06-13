@@ -6,6 +6,8 @@ function beepBoop(inputNumber) {
       arrayNumber[i] = ("BEEP!");
     } else if ((arrayNumber[i]).match("2")) {
       arrayNumber[i] = ("BOOP!");
+    } else if ((arrayNumber[i]).match("3")) {
+      arrayNumber[i] = ("Won't you be my neighbor?");
     }
   };
   return arrayNumber;

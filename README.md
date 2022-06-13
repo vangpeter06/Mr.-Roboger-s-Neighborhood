@@ -14,3 +14,6 @@ Test: "It should This replace a number containing the number 1 with the word "BO
 Code: inputNumber = 5;
 Expected Output: [0, "Boop!", "BOOP!", 3, 4, 5]
 
+Test: "It should This replace a number containing the number 1 with the word "Won't you be my neighbor?".
+Code: inputNumber = 5;
+Expected Output: [0, "Boop!", "BOOP!", Won't you be my neighbor?, 4, 5]
