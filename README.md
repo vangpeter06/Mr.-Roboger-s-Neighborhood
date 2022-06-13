@@ -22,5 +22,7 @@ Test: "It should replace a number containing the number 12 with BOOP!.
 Code: inputNumber = 13
 Expected Output: [0,Beep !,Boop !,Won't you be my neighbor?,4,5,6,7,8,9,Beep !,Beep !,Boop !]
 
-
+Test: "It should replace a number containing the number 13 with Won't you be my neighbor?.
+Code: inputNumber = 13
+Expected Output: [0,Beep !,Boop !,Won't you be my neighbor?,4,5,6,7,8,9,Beep !,Beep !,Boop !,Won't you be my neighbor?]
 
