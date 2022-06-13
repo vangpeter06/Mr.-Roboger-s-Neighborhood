@@ -4,14 +4,14 @@ function beepBoop(inputNumber) {
     if (i.toString().includes(3)) {
       arrayNumber.push("Won't you be my neighbor?");
     } else if (i.toString().includes(2)) {
-      arrayNumber.push("Boop !");
+      arrayNumber.push("BOOP!");
     } else if (i.toString().includes(1)) {
-      arrayNumber.push("Beep !");
+      arrayNumber.push("BEEP!");
     } else {
       arrayNumber.push(i);
     }
   }
-    return arrayNumber;
+  return arrayNumber;
 };
 
 $(document).ready(function(){
